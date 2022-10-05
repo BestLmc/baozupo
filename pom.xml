@@ -10,6 +10,7 @@
         <module>baozupo_web</module>
         <module>baozupo_biz</module>
         <module>baozupo_generator</module>
+        <module>baozupo_mybatisplus_generator</module>
     </modules>
 
     <parent>

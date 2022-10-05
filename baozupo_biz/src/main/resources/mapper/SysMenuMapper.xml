@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baozupo.biz.mapper.SysMenuMapper">
+
+    <resultMap id="BaseResultMap" type="com.baozupo.common.domain.entity.sys.SysMenu">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="menu_name" jdbcType="VARCHAR" property="menuName" />
+        <result column="menu_level" jdbcType="BIT" property="menuLevel" />
+        <result column="introduce" jdbcType="VARCHAR" property="introduce" />
+        <result column="pid" jdbcType="INTEGER" property="pid" />
+        <result column="url" jdbcType="VARCHAR" property="url" />
+        <result column="icon" jdbcType="VARCHAR" property="icon" />
+        <result column="sort" jdbcType="INTEGER" property="sort" />
+        <result column="status" jdbcType="BIT" property="status" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="is_show" jdbcType="BIT" property="isShow" />
+        <result column="menu_type" jdbcType="BIT" property="menuType" />
+    </resultMap>
+
+    <select id="getMenuById" resultType="com.baozupo.common.domain.entity.sys.SysMenu">
+        select * from sys_menu where id = #{id}
+    </select>
+
+
+
+
+
+</mapper>

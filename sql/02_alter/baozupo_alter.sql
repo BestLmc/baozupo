@@ -1,0 +1,1 @@
+ALTER TABLE sys_dict_item CHANGE dict_uid dict_id bigint(20) DEFAULT NULL COMMENT 'sys_dict字典ID';

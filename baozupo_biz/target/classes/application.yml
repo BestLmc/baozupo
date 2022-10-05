@@ -1,0 +1,3 @@
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  type-aliases-package: com.baozupo.common.domain    # 所有Entity别名类所在包
