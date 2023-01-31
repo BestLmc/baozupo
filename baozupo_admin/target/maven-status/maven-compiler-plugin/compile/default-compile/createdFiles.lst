@@ -1,0 +1,14 @@
+com\baozupo\admin\restapi\SysDictApi.class
+com\baozupo\admin\config\Knife4jConfiguration.class
+com\baozupo\admin\aspect\LengthAspect.class
+com\baozupo\admin\annotion\IsLeek.class
+com\baozupo\admin\aspect\LogAspect.class
+com\baozupo\admin\AdminApplication.class
+com\baozupo\admin\restapi\SysMenuApi.class
+com\baozupo\admin\restapi\SysUserApi.class
+com\baozupo\admin\restapi\SysDictItemApi.class
+com\baozupo\admin\restapi\TestApi.class
+com\baozupo\admin\restapi\SysRoleApi.class
+com\baozupo\admin\annotion\validator\IsLeekValidator.class
+com\baozupo\admin\domain\Test.class
+com\baozupo\admin\annotion\Log.class

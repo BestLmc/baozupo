@@ -1,0 +1,11 @@
+com\baozupo\base\global\BaseMessageConf.class
+com\baozupo\base\domain\PageInfo.class
+com\baozupo\base\domain\BaseVO.class
+com\baozupo\base\enums\SysStatus.class
+com\baozupo\base\mapper\SuperMapper.class
+com\baozupo\base\service\SuperService.class
+com\baozupo\base\global\BaseSysConstant.class
+com\baozupo\base\global\BaseSQLConf.class
+com\baozupo\base\domain\BaseEntity.class
+com\baozupo\base\serviceimpl\SuperServiceImpl.class
+com\baozupo\base\enums\APIRquest.class
